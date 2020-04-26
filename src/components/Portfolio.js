@@ -13,7 +13,7 @@ import {
 } from "@material-ui/core";
 import Navbar from "./Navbar";
 import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/javascript-fullstack.jpg"
+import project2 from "../images/javascript-fullstack.jpg";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -22,7 +22,6 @@ const useStyles = makeStyles({
   },
   cardContainer: {
     maxWidth: 345,
-    margin: "3rem",
     margin: "5rem auto",
   },
 });
@@ -93,37 +92,35 @@ const Portfolio = () => {
           </Card>
         </Grid>
 
- {/*Project 3 */}
- <Grid item xs={12} sm={8} md={6}>
- <Card className={classes.cardContainer}>
-   <CardActionArea>
-     <CardMedia
-       component="img"
-       alt="Project 2"
-       height="140"
-       image={project2}
-     />
-     <CardContent>
-       <Typography gutterBottom variant="h5">
-         Project2
-       </Typography>
-       <Typography variant="body2" color="textSecondary" component="p">
-         Project details enter here
-       </Typography>
-     </CardContent>
-     <CardActions>
-       <Button size="small" color="primary">
-         Share
-       </Button>
-       <Button size="small" color="primary">
-         Live Demo
-       </Button>
-     </CardActions>
-   </CardActionArea>
- </Card>
-</Grid>
-
-
+        {/*Project 3 */}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project 2"
+                height="140"
+                image={project2}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Project2
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Project details enter here
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Share
+                </Button>
+                <Button size="small" color="primary">
+                  Live Demo
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
       </Grid>
     </Box>
   );
