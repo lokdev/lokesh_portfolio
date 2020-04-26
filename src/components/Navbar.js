@@ -50,7 +50,7 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
-    listPath: "/",
+    listPath: "/lokesh",
   },
   {
     listIcon: <AssignmentInd />,

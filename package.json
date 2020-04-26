@@ -16,12 +16,12 @@
     "react-scripts": "3.4.1",
     "react-typed": "^1.2.0"
   },
+  "homepage": "https://lokdev.github.io/lokesh",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -38,10 +38,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-
-  "homepage": "https://lokdev.github.io/lokesh",
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
+
+  
 }

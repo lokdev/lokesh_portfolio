@@ -118,7 +118,7 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2015-2017
+            2k15-17
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -126,7 +126,7 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-            STARTEGIC TAX SOLUTION
+              STARTEGIC TAX SOLUTION
             </Typography>
             <Typography
               variant="body1"
@@ -140,42 +140,63 @@ const Resume = () => {
               align="center"
               style={{ color: "tan" }}
             >
-            Infrastructure Dashboard shows the list of activity happens in CORP Tax System (Server System), status of those activities and all file information in the FAI Dashboard.<br />
-            REST API’s are used to retrieve and update the data in database. 
-            <br />Ext JS is used for the Front End. The file which is loaded from the PeopleSoft/ETL system to the input folder. 
-            <br />To Monitor specify file in the input folder created PowerShell script which will triggered from the Control – M (Automation Tool).
+              Infrastructure Dashboard shows the list of activity happens in
+              CORP Tax System (Server System), status of those activities and
+              all file information in the FAI Dashboard.
+              <br />
+              REST API’s are used to retrieve and update the data in database.
+              <br />
+              Ext JS is used for the Front End. The file which is loaded from
+              the PeopleSoft/ETL system to the input folder.
+              <br />
+              To Monitor specify file in the input folder created PowerShell
+              script which will triggered from the Control – M (Automation
+              Tool).
             </Typography>
           </Box>
 
           <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017-Till Now
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-          ANTI MONEY LAUNDERING - CDD
+            2k17-20
           </Typography>
-          <Typography
-            variant="body1"
-            align="center"
-            style={{ color: "tomato" }}
-          >
-            Hcl Technologies
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            style={{ color: "tan" }}
-          >
-          USAA Banking which collects customer’s KYC details for AML verification purpose using Spring boot Micro-Services.
-          </Typography>
-        </Box>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              align="center"
+              className={classes.subHeading}
+            >
+              ANTI MONEY LAUNDERING - CDD
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Hcl Technologies
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "tan" }}
+            >
+              Anti-Money Laundering (AML) requires the ability to monitor data
+              volume, data integrity and data synchronization as per OCC
+              (Officer of the comptroller of the currency) guidelines to ensure
+              proper implementation of models, rigorous assessment of data
+              quality and relevance.
+              <br />
+              Improve AML’s data environment to strengthen the ability to
+              identify suspicious financial activity, produce accurate model
+              outputs, and compliance with regulatory requirements.
+              <br />
+              Standardize a method and built a reusable framework to monitor and
+              report on an agreed upon set of critical data elements resulting
+              in significant productivity savings when discovering and resolving
+              data quality issues.
+            </Typography>
+          </Box>
         </Box>
       </Box>
     </div>
