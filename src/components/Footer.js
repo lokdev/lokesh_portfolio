@@ -4,6 +4,7 @@ import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailIcon from "@material-ui/icons/Mail";
+import ResumeFile from "../resume/Lokesh_Dhanasekar_Resume.pdf"
 
 const useStyles = makeStyles({
   root: {
@@ -38,7 +39,7 @@ const Footer = () => {
 
       <BottomNavigationAction
         className={classes.root}
-        href="Lokesh_Dhanasekar_Resume.pdf"
+        href={ResumeFile}
         download
         style={{ padding: 0 }}
         icon={<GetAppIcon />}
