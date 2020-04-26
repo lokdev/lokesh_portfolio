@@ -1,9 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/styles";
 import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
-import Facebook from "@material-ui/icons/Facebook";
-import Twitter from "@material-ui/icons/Twitter";
-import Instagram from "@material-ui/icons/Instagram";
+import GetAppIcon from "@material-ui/icons/GetApp";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import MailIcon from "@material-ui/icons/Mail";
 
 const useStyles = makeStyles({
   root: {
@@ -28,18 +28,33 @@ const Footer = () => {
     <BottomNavigation width="auto" style={{ background: "#222" }}>
       <BottomNavigationAction
         className={classes.root}
+        href="https://www.linkedin.com/in/lokdev/"
         style={{ padding: 0 }}
-        icon={<Facebook />}
+        icon={<LinkedInIcon />}
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Linkedin"
       />
+
       <BottomNavigationAction
         className={classes.root}
+        href="Lokesh_Dhanasekar_Resume.pdf"
+        download
         style={{ padding: 0 }}
-        icon={<Twitter />}
+        icon={<GetAppIcon />}
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Download My Resume"
       />
+
       <BottomNavigationAction
         className={classes.root}
+        href="mailto:dlokesh@outlook.com"
         style={{ padding: 0 }}
-        icon={<Instagram />}
+        icon={<MailIcon />}
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Mail to Lokesh"
       />
     </BottomNavigation>
   );

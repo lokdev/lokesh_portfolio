@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import MobileRightMenuSlider from "@material-ui/core/Drawer";
-import Footer from "./Footer"
+import Footer from "./Footer";
 import {
   AppBar,
   Toolbar,
@@ -18,10 +18,10 @@ import {
 } from "@material-ui/core";
 
 import {
-  ArrowBack,
+  Menu,
   AssignmentInd,
   Home,
-  Apps,
+  GitHub,
   ContactMail,
 } from "@material-ui/icons";
 
@@ -50,22 +50,22 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
-    listPath:"/"
+    listPath: "/",
   },
   {
     listIcon: <AssignmentInd />,
     listText: "Resume",
-    listPath:"/resume"
+    listPath: "/resume",
   },
   {
-    listIcon: <Apps />,
-    listText: "Portfolio",
-    listPath:"/portfolio"
+    listIcon: <GitHub />,
+    listText: "Git Projects",
+    listPath: "/gitprojects",
   },
   {
     listIcon: <ContactMail />,
     listText: "Contacts",
-    listPath:"/contacts"
+    listPath: "/contacts",
   },
 ];
 
@@ -90,7 +90,7 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
-          <ListItem button key={key} component={Link} to = {lsItem.listPath} >
+          <ListItem button key={key} component={Link} to={lsItem.listPath}>
             <ListItemIcon className={classes.listItem}>
               {lsItem.listIcon}
             </ListItemIcon>
@@ -109,10 +109,9 @@ const Navbar = () => {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "tomato" }}></ArrowBack>
+              <Menu style={{ color: "tomato" }}></Menu>
             </IconButton>
             <Typography variant="h5" style={{ color: "tan" }}>
-              Portfolio
             </Typography>
             <MobileRightMenuSlider
               anchor="right"

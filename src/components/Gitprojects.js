@@ -12,8 +12,8 @@ import {
   CardActions,
 } from "@material-ui/core";
 import Navbar from "./Navbar";
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/javascript-fullstack.jpg";
+import resume from "../images/resume.jpg";
+import covid19 from "../images/covid19.png";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   },
 });
 
-const Portfolio = () => {
+const Gitprojects = () => {
   const classes = useStyles();
   return (
     <Box component="div" className={classes.mainContainer}>
@@ -40,22 +40,30 @@ const Portfolio = () => {
                 component="img"
                 alt="Project 1"
                 height="140"
-                image={project1}
+                image={resume}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project1
+                  My Resume
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Project details enter here
+                  Created my resume to view my resume in webpage
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://github.com/lokdev/MyResume"
+                >
+                  Git Project Link
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://lokdev.github.io/MyResume/"
+                >
+                Live Demo
                 </Button>
               </CardActions>
             </CardActionArea>
@@ -68,53 +76,23 @@ const Portfolio = () => {
             <CardActionArea>
               <CardMedia
                 component="img"
-                alt="Project 2"
+                alt="Covid 19 tracker"
                 height="140"
-                image={project2}
+                image={covid19}
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project2
+                  Covid 19 tracker
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Project details enter here
+                  To track covid19 internation cases, data will be fetched from rest api to bring live data.
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button size="small" color="primary" href="https://github.com/lokdev/covid19tracker">
+                Git Project Link
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
-              </CardActions>
-            </CardActionArea>
-          </Card>
-        </Grid>
-
-        {/*Project 3 */}
-        <Grid item xs={12} sm={8} md={6}>
-          <Card className={classes.cardContainer}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="Project 2"
-                height="140"
-                image={project2}
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5">
-                  Project2
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Project details enter here
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" href="https://lokdev.github.io/covid19tracker/">
                   Live Demo
                 </Button>
               </CardActions>
@@ -126,4 +104,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Gitprojects;
