@@ -4,6 +4,7 @@ import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import Typed from "react-typed";
 import avatar from "../images/lokesh_image.jpg";
 import Navbar from "./Navbar";
+import ParticlesDesign from "./ParticlesDesign";
 
 //CSS Styles
 
@@ -36,6 +37,7 @@ const Contacts = () => {
   return (
     <div>
       <Navbar />
+      <ParticlesDesign />
       <Box className={classes.typedContainer}>
         <Grid container justify="center">
           <Avatar

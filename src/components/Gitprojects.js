@@ -14,6 +14,7 @@ import {
 import Navbar from "./Navbar";
 import resume from "../images/resume.jpg";
 import covid19 from "../images/covid19.png";
+import ParticlesDesign from "./ParticlesDesign";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -31,6 +32,7 @@ const Gitprojects = () => {
   return (
     <Box component="div" className={classes.mainContainer}>
       <Navbar />
+      <ParticlesDesign />
       <Grid container justify="center">
         {/*Project 1 */}
         <Grid item xs={12} sm={8} md={6}>
