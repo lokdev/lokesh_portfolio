@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import Typed from "react-typed";
-import avatar from "../avatar.png";
+import avatar from "../images/lokesh_image.jpg";
 import Navbar from "./Navbar";
 
 //CSS Styles
