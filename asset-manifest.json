@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lokesh/static/css/main.0f981bb4.chunk.css",
-    "main.js": "/lokesh/static/js/main.dcd94431.chunk.js",
-    "main.js.map": "/lokesh/static/js/main.dcd94431.chunk.js.map",
+    "main.js": "/lokesh/static/js/main.cc27f5ab.chunk.js",
+    "main.js.map": "/lokesh/static/js/main.cc27f5ab.chunk.js.map",
     "runtime-main.js": "/lokesh/static/js/runtime-main.7674a30c.js",
     "runtime-main.js.map": "/lokesh/static/js/runtime-main.7674a30c.js.map",
-    "static/js/2.518a3278.chunk.js": "/lokesh/static/js/2.518a3278.chunk.js",
-    "static/js/2.518a3278.chunk.js.map": "/lokesh/static/js/2.518a3278.chunk.js.map",
+    "static/js/2.f735f0fe.chunk.js": "/lokesh/static/js/2.f735f0fe.chunk.js",
+    "static/js/2.f735f0fe.chunk.js.map": "/lokesh/static/js/2.f735f0fe.chunk.js.map",
     "index.html": "/lokesh/index.html",
-    "precache-manifest.b9747e53e25fe45eedda1e779e6f7abb.js": "/lokesh/precache-manifest.b9747e53e25fe45eedda1e779e6f7abb.js",
+    "precache-manifest.6585391f3a4525e1d80d06a4b6d10980.js": "/lokesh/precache-manifest.6585391f3a4525e1d80d06a4b6d10980.js",
     "service-worker.js": "/lokesh/service-worker.js",
     "static/css/main.0f981bb4.chunk.css.map": "/lokesh/static/css/main.0f981bb4.chunk.css.map",
-    "static/js/2.518a3278.chunk.js.LICENSE.txt": "/lokesh/static/js/2.518a3278.chunk.js.LICENSE.txt",
+    "static/js/2.f735f0fe.chunk.js.LICENSE.txt": "/lokesh/static/js/2.f735f0fe.chunk.js.LICENSE.txt",
     "static/media/Lokesh_Dhanasekar_Resume.pdf": "/lokesh/static/media/Lokesh_Dhanasekar_Resume.b3f6fda2.pdf",
     "static/media/avatar.png": "/lokesh/static/media/avatar.7c8e5f50.png",
     "static/media/App.css": "/lokesh/static/media/coffee-apple.2dd213aa.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7674a30c.js",
-    "static/js/2.518a3278.chunk.js",
+    "static/js/2.f735f0fe.chunk.js",
     "static/css/main.0f981bb4.chunk.css",
-    "static/js/main.dcd94431.chunk.js"
+    "static/js/main.cc27f5ab.chunk.js"
   ]
 }
