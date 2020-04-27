@@ -14,6 +14,7 @@ import {
 import Navbar from "./Navbar";
 import resume from "../images/resume.jpg";
 import covid19 from "../images/covid19.png";
+import portfolioImg from "../images/portfolio.png"
 import ParticlesDesign from "./ParticlesDesign";
 
 const useStyles = makeStyles({
@@ -101,6 +102,37 @@ const Gitprojects = () => {
             </CardActionArea>
           </Card>
         </Grid>
+        
+        {/*Project 3 */}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Covid 19 tracker"
+                height="140"
+                image={portfolioImg}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  My Portfolio
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Portfolio page for my details.
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small" color="primary" href="https://github.com/lokdev/lokesh">
+                Git Project Link
+                </Button>
+                <Button size="small" color="primary" href="https://lokdev.github.io/lokesh">
+                  Live Demo
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        
       </Grid>
     </Box>
   );
