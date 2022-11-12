@@ -1,27 +1,18 @@
 {
   "files": {
-    "main.css": "/lokesh/static/css/main.0f981bb4.chunk.css",
-    "main.js": "/lokesh/static/js/main.cc27f5ab.chunk.js",
-    "main.js.map": "/lokesh/static/js/main.cc27f5ab.chunk.js.map",
-    "runtime-main.js": "/lokesh/static/js/runtime-main.7674a30c.js",
-    "runtime-main.js.map": "/lokesh/static/js/runtime-main.7674a30c.js.map",
-    "static/js/2.f735f0fe.chunk.js": "/lokesh/static/js/2.f735f0fe.chunk.js",
-    "static/js/2.f735f0fe.chunk.js.map": "/lokesh/static/js/2.f735f0fe.chunk.js.map",
+    "main.css": "/lokesh/static/css/main.fe677ef5.css",
+    "main.js": "/lokesh/static/js/main.df0e8705.js",
+    "static/media/coffee-apple.jpg": "/lokesh/static/media/coffee-apple.a0c19713a15fff3f3cff.jpg",
+    "static/media/Lokesh_Dhanasekar_Resume.pdf": "/lokesh/static/media/Lokesh_Dhanasekar_Resume.75556cf6b6e17bca893c.pdf",
+    "static/media/lokesh_image.jpg": "/lokesh/static/media/lokesh_image.64f1f295923e87954c91.jpg",
+    "static/media/avatar.png": "/lokesh/static/media/avatar.d94025aac6e87c5e1840.png",
+    "static/media/resume.jpg": "/lokesh/static/media/resume.191adee027ecc4676fbf.jpg",
     "index.html": "/lokesh/index.html",
-    "precache-manifest.6585391f3a4525e1d80d06a4b6d10980.js": "/lokesh/precache-manifest.6585391f3a4525e1d80d06a4b6d10980.js",
-    "service-worker.js": "/lokesh/service-worker.js",
-    "static/css/main.0f981bb4.chunk.css.map": "/lokesh/static/css/main.0f981bb4.chunk.css.map",
-    "static/js/2.f735f0fe.chunk.js.LICENSE.txt": "/lokesh/static/js/2.f735f0fe.chunk.js.LICENSE.txt",
-    "static/media/Lokesh_Dhanasekar_Resume.pdf": "/lokesh/static/media/Lokesh_Dhanasekar_Resume.b3f6fda2.pdf",
-    "static/media/avatar.png": "/lokesh/static/media/avatar.7c8e5f50.png",
-    "static/media/App.css": "/lokesh/static/media/coffee-apple.2dd213aa.jpg",
-    "static/media/lokesh_image.jpg": "/lokesh/static/media/lokesh_image.4c58e392.jpg",
-    "static/media/resume.jpg": "/lokesh/static/media/resume.4ed3fa16.jpg"
+    "main.fe677ef5.css.map": "/lokesh/static/css/main.fe677ef5.css.map",
+    "main.df0e8705.js.map": "/lokesh/static/js/main.df0e8705.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7674a30c.js",
-    "static/js/2.f735f0fe.chunk.js",
-    "static/css/main.0f981bb4.chunk.css",
-    "static/js/main.cc27f5ab.chunk.js"
+    "static/css/main.fe677ef5.css",
+    "static/js/main.df0e8705.js"
   ]
 }
